@@ -1,0 +1,351 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.left{
+	width:17%;
+	height: 100%;
+	background-color:black;
+	float: left;
+}
+
+img{
+	width: 100%;
+	height:30% ;
+}
+
+h2{
+	font-size: 22px;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 20px  0px 10px 0px;
+	border-bottom:2px solid orange; 
+}
+
+h4{
+	margin-left:35px;
+	color: white;
+	padding:15px 0px 0px 0px;
+}
+
+h5{
+	color: white;
+}
+
+h6{
+	color: white;
+	font-weight: normal;
+}
+
+#c1{
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+
+.education{
+	color: white;
+	font-size:10px;
+	font-weight: normal;
+	margin-left:35px;
+	padding-bottom: 20px;
+}
+
+
+
+
+.right{
+	width: 83%;
+	height:100%;
+	float: right;
+	
+}
+
+.head{
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "The Beast", Georgia, serif;
+	margin-top: 4%;
+	height: 13%;
+	border:none;
+	color: black;
+	background-color: #F89700;
+}
+
+#p{
+	font-weight: normal;
+	font-family: 'Marta', sans-serif;                                                
+	font-size: 20px;
+}
+
+.obj h2{
+                                    
+	color: black;
+	margin-left: 30px;
+	border-bottom: 2px solid black;
+}
+.obj{
+	margin-right: 50px;
+}
+.obj p{
+	margin-left: 30px;
+}
+
+.fields {
+         float:left;
+         width:30%;
+         height:280px;
+        
+}
+
+.fields h2{
+	color: black;
+	margin-left: 30px;
+	border-bottom: 2px solid black;
+}
+
+.fields ul{
+	padding-left:15px;
+	margin-left: 30px;
+	list-style: none;
+}
+
+.fields ul li{
+	padding-bottom:10px;
+}
+.acquire{
+	 float:left;
+         width:40%;
+         height:280px;
+        
+}
+
+.acquire h2{
+	margin-left:5px;
+        color: black;
+        border-bottom: 2px solid black;
+}
+
+.acquire ul{
+	list-style: none;
+}
+.acquire ul li{
+	padding-left:15px;
+	padding-bottom:15px;
+	
+}
+
+.acquire img{
+	margin-right: 10px;
+	margin-left: 2px;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+}
+
+.acquire button{
+	padding: 2px;
+	align-items: center;
+	display: flex;
+	float: right;
+	color: white;
+	background-color: #4081EC;
+}
+#m {
+	margin: 0px;
+	background-color: white;
+	color: black;
+}
+#m img {
+	padding: 0px;
+	margin: 0px;
+	width: 25px;
+	height: 25px;
+}
+.skill{
+         float:right;
+         width:30%;
+         height:280px;
+         
+}
+
+.skill h2{
+	margin-left:5px;
+	margin-right: 50px;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.skill ul{
+	padding-left:15px;
+	list-style:none;
+}
+
+.skill ul li{
+	padding-bottom:5px;
+}
+
+.s1{
+	height: 20%;
+	width:100%;
+	overflow: scroll;
+}
+.summary h2{
+	margin-left:30px;
+	border-bottom: 2px solid black;
+	color: black;
+
+}
+
+.summary p{
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+
+
+/*Media */
+
+@media (max-width: 530px){
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.left{
+		width: 30%;
+		height: 75%;
+	}
+
+	.left img {
+		padding-top: 10px;
+		height: 6%;
+		object-fit: contain;
+	}
+
+	h4{
+		margin-top: 10px;
+		padding-top: 20px;
+	}
+
+	.left h2{
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+
+
+
+
+
+
+
+
+
+	.right{
+		margin: 0px;
+		width: 70%;
+		height: 75%;
+	}
+
+	.head{
+		margin-top:10%;
+		height: 6%;
+	}
+
+	.head h1{
+		font-size: 40px;
+	}
+
+	.right h2{
+		margin: 0px;
+		margin-left: 5px;
+
+		font-size: 18px;
+	}
+
+	.obj{
+		width: 97%;
+		margin: 0px;
+		margin-right: 10px;
+		
+	}
+
+	.obj p{
+		padding-top:10px;
+		font-size: 14px;
+		margin: 0px;
+		margin-left: 12px;
+		margin-right: 10px;
+	}
+
+	
+	.fields {
+		margin-right: 10px;
+		 
+     	 float:none;
+     	 width: 97%;
+         height: 190px;
+         
+        }
+
+	
+
+	.fields ul{
+		padding-top: 10px;
+		font-size: 15px;
+		margin-left: 12px;
+		list-style: none;
+	}
+
+	.fields ul li{
+		padding-bottom:10px;
+	}
+	
+
+	.acquire{
+		
+		float:none;
+	    width:97%;
+        height:280px;
+    }
+
+	.acquire ul{
+	
+		list-style: none;
+	}
+	.acquire ul li{
+		padding-left:15px;
+		padding-bottom:15px;
+	}
+
+
+	.skill{
+		
+		float: none;
+		width: 97%;
+	}
+
+	.summary{
+		
+		width: 97%;
+	}
+
+	.s1{
+		width: 97%;
+		height: 15%;
+		
+	}
+	.summary p{
+
+	}
+
+
+
+
+
+
+}
